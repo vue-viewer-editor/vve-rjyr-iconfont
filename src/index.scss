@@ -22,8 +22,6 @@ i[class^="vve-rjyr-icon"], i[class*=" vve-rjyr-icon"] {
 }
 
 $icf-css-prefix: "vve-rjyr-icon";
-
-// html
 .#{$icf-css-prefix}-setting2:before { content: "\e60c"; }
 .#{$icf-css-prefix}-status:before { content: "\e60b"; }
 .#{$icf-css-prefix}-setting:before { content: "\e60a"; }
