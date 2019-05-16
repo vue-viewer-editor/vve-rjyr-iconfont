@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
-    'main': path.resolve(__dirname, "src/main.js"),
+    'vve-rjyr-iconfont': path.resolve(__dirname, "src/main.js"),
   },
   output: {
     path: path.resolve(__dirname, "dist"),

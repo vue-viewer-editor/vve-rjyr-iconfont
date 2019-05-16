@@ -1,5 +1,5 @@
 {
-  "name": "webpack-sass",
+  "name": "vve-rjyr-iconfont",
   "version": "1.0.1",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",

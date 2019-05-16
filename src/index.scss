@@ -1,3 +1,34 @@
-body {
-  margin: 0;
+@font-face {
+  font-family: 'vve-rjyr-iconfont';  /* project id 1027258 */
+  src: url('//at.alicdn.com/t/font_1190034_ul6exm5i1is.eot');
+  src: url('//at.alicdn.com/t/font_1190034_ul6exm5i1is.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1190034_ul6exm5i1is.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1190034_ul6exm5i1is.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1190034_ul6exm5i1is.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1190034_ul6exm5i1is.svg#iconfont') format('svg');
 }
+
+i[class^="vve-rjyr-icon"], i[class*=" vve-rjyr-icon"] {
+  font-family:"vve-rjyr-iconfont" !important;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+$icf-css-prefix: "vve-rjyr-icon";
+
+// html
+.#{$icf-css-prefix}-setting2:before { content: "\e60c"; }
+.#{$icf-css-prefix}-status:before { content: "\e60b"; }
+.#{$icf-css-prefix}-setting:before { content: "\e60a"; }
+.#{$icf-css-prefix}-status1:before { content: "\e609"; }
+.#{$icf-css-prefix}-app:before { content: "\e608"; }
+.#{$icf-css-prefix}-warning:before { content: "\e607"; }
+.#{$icf-css-prefix}-app1:before { content: "\e606"; }
+.#{$icf-css-prefix}-warning1:before { content: "\e605"; }
