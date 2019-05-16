@@ -43,7 +43,7 @@ import 'vve-rjyr-iconfont/src/index.scss'
 ### CDN安装使用
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vve-rjyr-iconfont@1.0.1/dist/vve-rjyr-iconfont.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vve-rjyr-iconfont@1.0.2/dist/vve-rjyr-iconfont.css">
 ```
 
 ## 开发
