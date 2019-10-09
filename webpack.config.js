@@ -6,7 +6,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = (env = {}) => {
 
   const entry = {
-    'vve-rjyr-iconfont': path.resolve(__dirname, "src/main.js"),
+    'vve-rjyr-iconfont': path.resolve(__dirname, "src/vve-rjyr-icon/main.js"),
   }
 
   env.SINGLE_ENTRY && Object.keys(entry).map(name => {
